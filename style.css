@@ -36,5 +36,10 @@ textarea{
 .textcounter{
     display: flex;justify-content: space-between;
     color: blue;
-
 }
+
+.textcounter span{
+    color: red;
+    margin-left: 5px;
+}
+
