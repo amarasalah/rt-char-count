@@ -2,7 +2,7 @@ const textboxEl= document.getElementById("textarea");
 const totaltextEl= document.getElementById("totaltext");
 const textremainingEl = document.getElementById("textremaining");
 
-textboxEl.addEventListener("keyup",()=>{
+textboxEl.addEventListener("input",()=>{
     updateTextBox();
     
 })
